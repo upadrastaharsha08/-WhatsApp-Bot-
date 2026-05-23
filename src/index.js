@@ -43,13 +43,14 @@ const client = new Client({
   },
 });
 
-// ── QR Code ───────────────────────────────────────
 client.on('qr', (qr) => {
   console.log('\n🕉️  RUTVIK AI — Ultimate WhatsApp Bot v2.0');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log('📱 Scan QR with WhatsApp → Linked Devices → Link a Device\n');
-  qrcode.generate(qr, { small: true });
+  qrcode.generate(qr, { small: false }); // bigger QR
   console.log('\n⏳ Waiting for scan...\n');
+  console.log('📋 QR STRING (paste at https://webqr.com if camera scan fails):');
+  console.log(qr); // raw string as backup
 });
 
 // ── Auth Events ───────────────────────────────────
