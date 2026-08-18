@@ -1,6 +1,6 @@
 # 🕉️ RUTVIK AI — Ultimate WhatsApp Bot
 
-### Intelligent WhatsApp Automation for RUTVIK Spiritual Services
+### Intelligent WhatsApp Automation for Rutvik Spiritual Services
 
 **RUTVIK AI** is a production-oriented WhatsApp AI assistant designed for automated customer conversations, spiritual-service guidance, booking assistance, and 24/7 conversational support.
 
